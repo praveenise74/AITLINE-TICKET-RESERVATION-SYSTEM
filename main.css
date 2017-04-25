@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+button {
+    
+    border: none;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;    
+    transition-duration: 0.4s;   
+    border-radius: 5px 5px 0 0;
+	font-family:Bauhaus;
+    background-color:#92B4EF; 
+    color:floralwhite; 
+   
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+div.tab{
+		background-color:#92B4EF;
+		color:blu
+		font-weight:400;
+		font-size:20px;
+		font-family:Bauhaus;
+		margin:0 -17px;	
+}	
+
+font{
+		font-size:35px;
+		
+	}
+
+
+div.background{ 
+  background-image: url(flight.jpg);
+  height:100%;
+  width:100%;
+  max-width:100%;
+  max-height:100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0px 0px 0px -17px;
+}
+
+div.transbox{
+  margin: 30px 150px ;
+  background-color: #ffffff;
+  border-radius:10px ;
+  border:1px white;
+  opacity: 0.8;
+  
+}
+
+a.upper{
+		font-size:15px;
+		padding:10px 20px;
+		color:blue;
+		transition-duration:0.4;
+		
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 50px 20px 40px;
+    display: inline;
+	border-radius:5px ;
+	font-family:Bauhaus;
+	opacity:10;
+	
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 50px 20px 40px;
+	border-radius:5px ;
+	font-family:Bauhaus;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 50px 20px 40px;
+	border-radius:5px ;
+	font-family:Bauhaus;
+}
+
+.form-row input[type="submit"] {
+		background-color:blue;
+		color:white;
+		font-weight:400;
+		font-size:20px;
+		font-family:Bauhaus;
+		margin:0px 20px 20px 20px;
+		padding:10px 20px;
+		border-radius:5px ;
+	}
+
+.form-row:hover input[type="submit"] {
+		background-color:darkblue;
+}
+
+
+#date{
+		font-weight:400;
+		font-size:20px;
+		font-family:Bauhaus;
+		margin:-40px 20px 20px 20px;		
+		padding:10px 20px;
+		border-radius:5px ;
+	}
+h4{
+	font-family:Bauhaus;
+}
+
+#number{
+		font-family:Bauhaus;
+		font-size:20px;
+		padding:40px;		
+}
+	
+.submit input[type="submit"]{
+		background-color:blue;
+		color:white;
+		font-weight:400;
+		font-size:20px;
+		font-family:Bauhaus;
+		margin:10px 30px 20px 20px;
+		width:235px;
+		padding:10px 20px;
+		border-radius:5px ;
+}
+
+.submit:hover input[type="submit"]{
+		background-color:green;
+}
+label{
+	color:black;
+	font-size:20px;
+	font-family:Bauhaus;
+	padding:12px 30px;
+	
+}
+
+.fa{
+	padding:10px;
+	}
