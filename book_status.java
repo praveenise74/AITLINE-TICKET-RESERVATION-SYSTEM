@@ -10,9 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import com.mysql.jdbc.ResultSet;
 
-/**
- * Servlet implementation class book_status
- */
+
 @WebServlet("/book_status")
 public class book_status extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -25,9 +23,7 @@ public class book_status extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
@@ -64,7 +60,7 @@ public class book_status extends HttpServlet {
 		 //RequestDispatcher dispatcher=request.getRequestDispatcher("main");
 		 System.out.println("it worked here1");
 		 System.out.println(bs.dbpnr);
-		// System.out.println(date);
+	
 		// System.out.println(destination);
 		 request.getRequestDispatcher("main.jsp").forward(request, response);
 		
